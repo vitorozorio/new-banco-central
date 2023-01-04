@@ -70,8 +70,7 @@ public class TesteContaBancaria {
                                   System.out.print("insira o valor do depositar :");
                                   deposito = texto.nextDouble();
                                   P1.setSaldo(deposito);
-                                  P1.setSaldo(P1.CALCULARRENDIMENTO());
-                                  System.out.println("saldo com rendimento de 0,005 % : " + P1.getSaldo());
+                                  P1.depositar(P1.CALCULARRENDIMENTO());
 
                               }
 

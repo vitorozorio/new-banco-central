@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea9c88e4-856a-4f8d-8074-13c1dbee7236" name="Changes" comment="" />
+    <list default="true" id="ea9c88e4-856a-4f8d-8074-13c1dbee7236" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/TesteContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/TesteContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
