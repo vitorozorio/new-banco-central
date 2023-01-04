@@ -37,7 +37,7 @@ public final class Especial extends ContaBancaria implements Operacoes {
 
             } else { // este metodo adiciona um limite de credito para o cliente poder usar
 
-                System.out.println("\nlimite disponivel : " + getLimiete());
+                System.out.print("\nlimite disponivel : " + getLimiete());
                 System.out.print("limite usado : ");
                 return super.getSaldo();
 

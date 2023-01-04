@@ -21,13 +21,14 @@ public final class Poupanca extends ContaBancaria implements Operacoes  {
     @Override
     public double sacar(double s) {
         super.setSaldo(getSaldo() - s);
+        System.out.print("saldo restante :");
         return getSaldo();
     }
 
     @Override
     public void depositar(double d) {
         super.setSaldo(CALCULARRENDIMENTO());
-        System.out.println("saldo com rendimentos :" + super.getSaldo());
+        System.out.print("saldo com rendimentos :" + super.getSaldo());
     }
 }
 
