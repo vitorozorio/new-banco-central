@@ -1,15 +1,14 @@
-package br.treinamentoLoiane.exer1.Clientes;
+package br.treinamentoLoiane.exer1.ClientesAbstratos;
 
-
-public class ContaBancaria {
+public abstract class ContaBancaria { // esta é a classe mãe das outras duas classes
 
    private String nome;
    private String numeroDaConta;
    private double saldo;
 
-    public ContaBancaria(String nome, String id, double saldo) {
+    public ContaBancaria(String nome, String numeroDaConta, double saldo) {
         this.nome = nome;
-        this.numeroDaConta = id;
+        this.numeroDaConta = numeroDaConta;
         this.saldo = saldo;
     }
 
@@ -38,13 +37,17 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    public void sacar(double s) {
+    public double sacar(double s) {
 
         this.saldo = this.saldo - s;
 
         if (saldo <= 0) {
-            System.out.println("saldo zerado");
+            System.out.println("saldo negativado");
         }
+
+
+       System.out.println("saldo atual :");
+       return this.saldo;
     }
 
     public void depositar (double d) {
@@ -59,3 +62,7 @@ public class ContaBancaria {
 
 
 }
+
+
+
+
