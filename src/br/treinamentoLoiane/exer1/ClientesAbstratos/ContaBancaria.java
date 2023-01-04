@@ -37,23 +37,6 @@ public abstract class ContaBancaria { // esta é a classe mãe das outras duas c
         this.saldo = saldo;
     }
 
-    public double sacar(double s) {
-
-        this.saldo = this.saldo - s;
-
-        if (saldo <= 0) {
-            System.out.println("saldo negativado");
-        }
-
-
-       System.out.println("saldo atual :");
-       return this.saldo;
-    }
-
-    public void depositar (double d) {
-        this.saldo = this.saldo + d;
-    }
-
 
     @Override
    public String toString() {

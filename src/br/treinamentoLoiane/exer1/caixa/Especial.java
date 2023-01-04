@@ -1,8 +1,9 @@
 package br.treinamentoLoiane.exer1.caixa;
 import br.treinamentoLoiane.exer1.ClientesAbstratos.ContaBancaria;
+import br.treinamentoLoiane.exer1.ClientesAbstratos.Operacoes;
 
 
-public final class Especial extends ContaBancaria {
+public final class Especial extends ContaBancaria implements Operacoes {
 
     private double limiete ;
 
@@ -19,7 +20,10 @@ public final class Especial extends ContaBancaria {
         this.limiete = limiete;
     }
 
-    public double sacar(double s) { // reescrevi o metodo sacar cpm limite assim como pedido no exercicio
+
+    @Override
+    public double sacar(double s) {
+
 
         super.setSaldo(super.getSaldo() - s);
 
@@ -43,7 +47,10 @@ public final class Especial extends ContaBancaria {
 
         System.out.print("\nsaldo disponivel : ");
         return super.getSaldo();
-
     }
 
+    @Override
+    public void depositar(double d) {
+        super.setSaldo(getSaldo() + d);
+    }
 }

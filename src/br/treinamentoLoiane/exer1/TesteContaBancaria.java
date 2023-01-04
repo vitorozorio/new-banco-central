@@ -35,7 +35,7 @@ public class TesteContaBancaria {
                       System.out.print("numero da conta :");
                       numConta = texto.next();
 
-                      System.out.print("agora faça um deposito de algum valor :");
+                      System.out.print("agora faça um depositar de algum valor :");
                       deposito = texto.nextDouble();
 
                       P0.setNome(nome);
@@ -55,19 +55,19 @@ public class TesteContaBancaria {
 
                           System.out.println(P1);
                           System.out.println("\ndeseja realizar uma operação ?");
-                          System.out.println("1 para saque\n2 para deposito\n3 para sair");
+                          System.out.println("1 para sacar\n2 para depositar\n3 para sair");
                           opcao = texto.nextInt();
 
                           switch (opcao) {
 
                               case 1 ->{
-                                 System.out.print("insira o valor do saque :");
+                                 System.out.print("insira o valor do sacar :");
                                  saque = texto.nextDouble();
                                  System.out.println(P1.sacar(saque));
                               }
 
                               case 2 -> {
-                                  System.out.print("insira o valor do deposito :");
+                                  System.out.print("insira o valor do depositar :");
                                   deposito = texto.nextDouble();
                                   P1.setSaldo(deposito);
                                   P1.setSaldo(P1.CALCULARRENDIMENTO());
@@ -83,19 +83,19 @@ public class TesteContaBancaria {
 
                           System.out.println(E1);
                           System.out.println("\ndeseja realizar uma operação ?");
-                          System.out.println("1 para saque\n2 para deposito\n3 para sair");
+                          System.out.println("1 para sacar\n2 para depositar\n3 para sair");
                           opcao = texto.nextInt();
 
                           switch (opcao) {
 
                               case 1 ->{
-                                  System.out.print("insira o valor do saque :");
+                                  System.out.print("insira o valor do sacar :");
                                   saque = texto.nextDouble();
                                   System.out.println(E1.sacar(saque));
                               }
 
                               case 2 -> {
-                                  System.out.print("insira o valor do deposito :");
+                                  System.out.print("insira o valor do depositar :");
                                   deposito = texto.nextDouble();
                                   E1.setSaldo(deposito);
                                   System.out.println("saldo atual :" + E1.getSaldo());
