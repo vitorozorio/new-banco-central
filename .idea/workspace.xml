@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9c88e4-856a-4f8d-8074-13c1dbee7236" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Especial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Especial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

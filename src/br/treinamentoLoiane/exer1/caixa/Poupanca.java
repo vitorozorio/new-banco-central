@@ -11,7 +11,7 @@ public  final class Poupanca extends ContaBancaria {
 
     public double CALCULARRENDIMENTO(){
 
-        double RENDIMENTO = 0.05; // este metodo faz o calculo de rendimento a partir da polpança do cliente
+        double RENDIMENTO = 0.05; // este metodo faz o calculo de rendimento a partir da poupança do cliente
         double s = super.getSaldo() * RENDIMENTO;
         return s + super.getSaldo();
     }
