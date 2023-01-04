@@ -6,12 +6,10 @@ public final class Especial extends ContaBancaria {
 
     private double limiete ;
 
-
     public Especial(String nome, String numeroDaConta, double saldo, double limiete) {
         super(nome, numeroDaConta, saldo);
         this.limiete = limiete;
     }
-
 
     public double getLimiete() {
         return limiete;
@@ -46,8 +44,6 @@ public final class Especial extends ContaBancaria {
         System.out.print("\nsaldo disponivel : ");
         return super.getSaldo();
 
-
     }
-
 
 }

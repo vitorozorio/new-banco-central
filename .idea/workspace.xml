@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9c88e4-856a-4f8d-8074-13c1dbee7236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AulaLoiane_ContaBancaria.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/ClientesAbstratos/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/TesteContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Especial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/requisitos do sistema " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Especial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Especial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/treinamentoLoiane/exer1/caixa/Poupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/zori-dev/Documentos/workplace/Aulas_loiane/Aula-36a43/AulaLoiane_ContaBancaria",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.treinamentoLoiane.exer1.caixa" />
